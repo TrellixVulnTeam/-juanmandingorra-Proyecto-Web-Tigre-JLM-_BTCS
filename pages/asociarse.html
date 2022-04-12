@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Atletico Tigre - Asociarse</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <div align="center"><img src="../images/Escudo.jpg" width="120">
+            <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
+            <p style="font-size: 20px;">Provincia de Bs. As.</p>
+        </div>
+    </header>
+    <main>
+        <nav class="barra_menu"> <!--Barra de navegacion en forma de lista-->
+            <div><a href="../index.html">Home</a></div> <!-- A la pagina inicial -->
+            <div><a href="historia.html">Historia</a></div> <!-- A pagina Historia -->
+            <div><a href="fixture.html">Fixture</a></div> <!-- A pagina Fixture -->
+            <div><a href="plantelprimera.html">Plantel de Primera</a></div> <!-- A pagina Plantel -->
+            <div><a href="asociarse.html">Contacto-Asociate</a></div> <!-- A pagina Asociarte -->
+        </nav>
+    <hr>
+        <h2 class="encabezado3">Asociarse</h2> <!--Ficha para asociarse al club y datos de contacto-->
+            <form action="envio.php" method="post" class="centrar_asociarse">
+                <label for="Nombre"></label><br><input name="Nombre" type="text">Nombre
+                <label for="Apellido"></label><br><input name="Apellido" type="text">Apellido
+                <label for="Domicilio"></label><br> <input name="Domicilio" type="text">Domicilio
+                <label for="Fecha de Nacimiento"></label><br> <input name="Fecha de Nacimiento" type="date">Fecha de Nacimiento<br>
+                <p style="text-decoration: underline; padding-top: 10px ;padding-bottom: 10px;">Genero:</p>
+                <table border="1" cellpading="1" cellspacing="1" width="100">
+                    <td>
+                        <div   div>Masculino</div>
+                        <input type="radio" name="sexo" value="Masculino">
+                    </td>
+                    <td>
+                        <div>Femenino</div>
+                        <input type="radio" name="sexo" value="Femenino">
+                    </td>
+                </table>
+                <label for="Email"></label><br><input name="Email" type="email">E-Mail
+                <label for="Password"></label><br><input name="Password" type="password">Password
+                <div>¿Esta de acuerdo con los datos?</div>
+                    <input type="checkbox" name="acepta" value="1"><br>
+                    <input type="submit" value="Enviar!"> <input type="reset" value="Limpiar"><br>
+            </form>
+    <hr>
+        <h2 class="encabezado3">Contacto</h2>
+            <table class="centrar_asociarse" border="1" cellpading="5" cellspacing="5">
+            <tr>
+                <td width="640">
+                    <p class="centrar">Direccion: Guido Spano 1053 - CP 1644 - Victoria - Argentina</p>
+                    <p class="centrar">Telefono: (54-11) 4744-3949</p>
+                    <p class="centrar">Email: cat@hotmail.com</p>
+                    <p class="centrar">Whatsapp: (54-11) 15-3334-6967</p>
+                </td>
+                <td width="640" >
+                    <img src="../images/Estadio.jpg" alt="Estadio" width="640">
+                </td>
+            </tr>
+            </table>
+    </main>
+    <footer>
+        <span><b>Club Atletico Tigre</b> - Año 2022 | Guido Spano 1053 - CP 1644 - Victoria - Argentina</span> <!--pie de pagina con datos de contacto. Falta agregar redes sociales-->
+    </footer>
+</body>
+</html>

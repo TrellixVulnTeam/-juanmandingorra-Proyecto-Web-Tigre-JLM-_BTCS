@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, whitesmoke, rgb(153, 134, 134), whitesmoke,rgb(153, 134, 134))
+}
+
+header{
+    padding: 10px 10px 10px 10px;
+    background-image:url(https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/03/estadio-tigre-victoria1-640x243.jpg  );
+    width: auto;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    color: rgb(19, 18, 18);
+    font-weight: bolder;
+    font-style: italic;
+    border-color: blue;
+    border-style: solid;
+    display: block;
+}
+
+.barra_menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, red,white,red,white);
+    color: rgb(30, 0, 255); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    height: 15%;
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 5s;
+}
+
+a:hover{
+    font-size: 30px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+
+.images{
+    border-style: solid;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.images:hover{
+    transform: rotate(360deg)
+}
+
+input{
+    width: 200px;
+    height: 16px;
+    font-size: 12px;
+    transition: all 2s;
+}
+
+input:focus{
+    width: 300px;  
+    height: 32px;
+    font-size: 18px;
+    border: 2px solid red
+}
+
+.menu_ul{
+    list-style: none;
+    display: block;
+}
+
+.menu_li{
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    font-size: 20px;
+    background-color: rgb(212, 34, 34);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+li a{
+    color: black;
+}
+
+
+footer{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background-color: rgb(28, 28, 156);
+    color: rgb(224, 13, 13);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+
+
+
+.centrar{
+    text-align: center;
+}
+
+.p_history{
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin: 2px;
+}
+
+.p_menu{
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.encabezado1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-decoration:underline;
+    margin: 5px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+.encabezado2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration:underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.encabezado3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration:underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrar_asociarse{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, whitesmoke, rgb(153, 134, 134), whitesmoke,rgb(153, 134, 134))
+
+}
+
+.titulos{
+    text-decoration: underline;
+    
+}
+
+.grid_section_history{
+    display: grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-gap: 15px;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.grid_section_home{
+    display: grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: 3fr auto;
+    grid-column-gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div_history{
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.div_home{
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+iframe{
+    border-radius: 25px;
+}
+
+@keyframes aparecer{
+    0%{ opacity: 0;}
+    100%{opacity: 1;}
+}
+
