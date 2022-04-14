@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Atletico Tigre - Fixture</title>
+    <title>Club Atletico Tigre - Home</title>
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
-        <div align="center"><img src="../images/Escudo.jpg" width="120">
-            <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
-            <p style="font-size: 20px;">Provincia de Bs. As.</p>
+        <div class="container-fluid centrar">
+            <div>
+                <img src="../images/Escudo.jpg" width="120">
+                <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
+                <p style="color: white;"><u><strong>Provincia de Bs. As.</u></p></strong>
+            </div>
         </div>
     </header>
-    <main>
-        <nav class="barra_menu"> <!--Barra de navegacion en forma de lista-->
-            <div><a href="../index.html">Home</a></div> <!-- A la pagina inicial -->
-            <div><a href="historia.html">Historia</a></div> <!-- A pagina Historia -->
-            <div><a href="fixture.html">Fixture</a></div> <!-- A pagina Fixture -->
-            <div><a href="plantelprimera.html">Plantel de Primera</a></div> <!-- A pagina Plantel -->
-            <div><a href="asociarse.html">Contacto-Asociate</a></div> <!-- A pagina Asociarte -->
-        </nav>
+    <main class="container-fluid">
+        <div class="row barra_menu"> <!--Barra de navegacion-->
+            <div class="col-md-2">
+                <a href="../index.html">Home</a> <!-- A la pagina inicial -->
+            </div>
+            <div class="col-md-2">
+                <a href="historia.html">Historia</a> <!-- A pagina Historia -->
+            </div>
+            <div class="col-md-2">
+                <a href="fixture.html">Fixture</a> <!-- A pagina Fixture -->
+            </div>
+            <div class="col-md-2">
+                <a href="plantelprimera.html">Plantel de Primera</a> <!-- A pagina Plantel -->
+            </div>
+            <div class="col-md-2">
+                <a href="asociarse.html">Contacto-Asociate</a> <!-- A pagina Asociarte -->
+            </div>
+        </div>
     <hr>
         <h2 class="encabezado2">Historial Partidos</h2> <!--Fixture del torneo, agregar tabla general de puntos-->
         <table border="1" cellpading="5" cellspacing="5" width="400">

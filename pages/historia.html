@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Atletico Tigre - Home</title>
-    <link rel="shortcut icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Club Atletico Tigre - Home</title>
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.min.js"></script>
+    </head>
 <body>
-    <div id="page">
-    <header class="border">
-        <div align="center"><img src="../images/Escudo.jpg" width="120">
-            <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
-            <p style="font-size: 20px;">Provincia de Bs. As.</p>
-        </div>
+    <header>
+            <div class="container-fluid centrar">
+                <div>
+                    <img src="../images/Escudo.jpg" width="120">
+                    <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
+                    <p style="color: white;"><u><strong>Provincia de Bs. As.</u></p></strong>
+                </div>
+            </div>
     </header>
-    <nav class="barra_menu"> <!--Barra de navegacion en forma de lista-->
-        <div><a href="../index.html">Home</a></div> <!-- A la pagina inicial -->
-        <div><a href="historia.html">Historia</a></div> <!-- A pagina Historia -->
-        <div><a href="fixture.html">Fixture</a></div> <!-- A pagina Fixture -->
-        <div><a href="plantelprimera.html">Plantel de Primera</a></div> <!-- A pagina Plantel -->
-        <div><a href="asociarse.html">Contacto-Asociate</a></div> <!-- A pagina Asociarte -->
-    </nav>
-    <section class="grid_section_history"> <!--Historia del club, agregar campeonatos y mas informacion sobre el club-->
-        <div class="div_history">
-            <h2 style="text-decoration: underline;">El sueño se hace realidad (1902)</h2> 
-            <p class="p_history">
-                Una fría noche de sábado, un grupo de 12 entusiastas amigos adolescentes, liderados por José Dellagiovanna, se reúnen en su casa de Boulevard Cazón al 1100 en el partido de Las Conchas. En honor a su amistad deciden formar el Club Atlético Juventud del Tigre. Al día siguiente, el domingo 3 de agosto de 1902, pasadas las 15.00 horas firman el acta de fundación que daría inicio a nuestra historia.
-            </p> 
-        </div>
-        <div class="div_history">
-            <img src="../images/history/1902-Escudo.jpg" width="180" class="images">
-        </div>
-        <div class="div_history">
-            <h2 style="text-decoration: underline;">Primeros Pasos (1907)</h2> 
-            <p class="p_history">
-                El primer partido de Juventud del Tigre fue un triunfo 3-1 ante el Club Atlético Las Conchas. Y la primera camiseta utilizada fue la mítica azul con vivos rojos, en honor al cantón de Tesino (Suiza), con pantalones y medias negras.
-                La astucia y entusiasmo de José Dellagiovanna lograban conseguir los recursos necesarios para sostener el sueño, disputar desafíos y participar de “ligas independientes” difundiendo todas las actividades del Club en la zona.
-                ¡Hasta pintó de azul y rojo la casilla de su perro y la transformó en secretaría y tesorería!
-            </p> 
-        </div>
-        <div class="div_history">
-            <img src="../images/history/1907-Programa-218x300.jpg" width="110" class="images">
-        </div>
-        <div class="div_history">
-            <h2 style="text-decoration: underline;">Primer Partido Oficial (1911)</h2> 
-            <p class="p_history">
-                Tigre se inscribe para participar por primera vez en los torneos oficiales organizados por la Argentine Foot-ball Association. Debuta el 7 de mayo de 1911 en la segunda liga Subsección C, con caída por 5-4 ante Argentino de Núñez. El 25 de mayo lograría su primer triunfo al golear 11-0 a Argentino de Quilmes II en apenas 45 minutos de juego.
-                El “team” se convertía rápidamente en animador del torneo.
-            </p>
+    <main class="container-fluid">
+            <div class="row barra_menu"> <!--Barra de navegacion-->
+                <div class="col-md-2">
+                    <a href="../index.html">Home</a> <!-- A la pagina inicial -->
+                </div>
+                <div class="col-md-2">
+                    <a href="historia.html">Historia</a> <!-- A pagina Historia -->
+                </div>
+                <div class="col-md-2">
+                    <a href="fixture.html">Fixture</a> <!-- A pagina Fixture -->
+                </div>
+                <div class="col-md-2">
+                    <a href="plantelprimera.html">Plantel de Primera</a> <!-- A pagina Plantel -->
+                </div>
+                <div class="col-md-2">
+                    <a href="asociarse.html">Contacto-Asociate</a> <!-- A pagina Asociarte -->
+                </div>
+            </div>
+            <section class="grid_section_history"> <!--Historia del club, agregar campeonatos y mas informacion sobre el club-->
+                <div class="div_history">
+                    <h2 style="text-decoration: underline;">El sueño se hace realidad (1902)</h2> 
+                    <p class="p_history">
+                        Una fría noche de sábado, un grupo de 12 entusiastas amigos adolescentes, liderados por José Dellagiovanna, se reúnen en su casa de Boulevard Cazón al 1100 en el partido de Las Conchas. En honor a su amistad deciden formar el Club Atlético Juventud del Tigre. Al día siguiente, el domingo 3 de agosto de 1902, pasadas las 15.00 horas firman el acta de fundación que daría inicio a nuestra historia.
+                    </p> 
+                </div>
+                <div class="div_history">
+                    <img src="../images/history/1902-Escudo.jpg" width="180" class="images">
+                </div>
+                <div class="div_history">
+                    <h2 style="text-decoration: underline;">Primeros Pasos (1907)</h2> 
+                    <p class="p_history">
+                    El primer partido de Juventud del Tigre fue un triunfo 3-1 ante el Club Atlético Las Conchas. Y la primera camiseta utilizada fue la mítica azul con vivos rojos, en honor al cantón de Tesino (Suiza), con pantalones y medias negras.
+                    La astucia y entusiasmo de José Dellagiovanna lograban conseguir los recursos necesarios para sostener el sueño, disputar desafíos y participar de “ligas independientes” difundiendo todas las actividades del Club en la zona.
+                    ¡Hasta pintó de azul y rojo la casilla de su perro y la transformó en secretaría y tesorería!
+                    </p> 
+                </div>
+                <div class="div_history">
+                    <img src="../images/history/1907-Programa-218x300.jpg" width="110" class="images">
+                </div>
+                <div class="div_history">
+                    <h2 style="text-decoration: underline;">Primer Partido Oficial (1911)</h2> 
+                    <p class="p_history">
+                        Tigre se inscribe para participar por primera vez en los torneos oficiales organizados por la Argentine Foot-ball Association. Debuta el 7 de mayo de 1911 en la segunda liga Subsección C, con caída por 5-4 ante Argentino de Núñez. El 25 de mayo lograría su primer triunfo al golear 11-0 a Argentino de Quilmes II en apenas 45 minutos de juego.
+                        El “team” se convertía rápidamente en animador del torneo.
+                    </p>
         </div>
         <div class="div_history">
             <img src="../images/history/1911-300x217.jpg" width="200" class="images">
@@ -79,9 +93,9 @@
             <img src="../images/history/1913-Amistoso-vs.-Central-de-Montevideo-300x114.jpg" width="200" class="images">
         </div>
     </section>
+    </main>
     <footer>
         <span><b>Club Atletico Tigre</b> - Año 2022 | Guido Spano 1053 - CP 1644 - Victoria - Argentina</span> <!--pie de pagina con datos de contacto. Falta agregar redes sociales-->
     </footer>
-    </div>
 </body>
 </html>
