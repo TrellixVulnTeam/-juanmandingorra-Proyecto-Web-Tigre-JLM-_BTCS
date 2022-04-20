@@ -59,6 +59,10 @@ p{
     transform: rotate(360deg)
 }
 
+.images_players{
+    width: 50px;
+}
+
 input{
     width: 300px;
     height: 25px;
