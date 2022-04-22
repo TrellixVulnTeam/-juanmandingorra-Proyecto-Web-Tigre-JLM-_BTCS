@@ -1,0 +1,31 @@
+header{
+
+    h1{
+        color: black;
+    }
+
+    img{
+        border-color: red;
+    }
+}
+
+nav{
+    background-color: black;
+    border-style: solid;
+    border-color: red;
+
+    a{
+        border-style: hidden;
+        color: red;
+        transition: all;
+    }
+
+    a:hover{
+        color: white;
+    }
+}
+
+footer{
+    background-color: rgb(28, 28, 156);
+    color: rgb(224, 13, 13);
+}

@@ -1,0 +1,21 @@
+.index_images{
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: all 2s;
+}
+
+.history_images{
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: all 2s;
+}
+
+.history_images:hover{
+    transform: rotate(360deg)
+}
+
+.images_players{
+    width: 50px;
+}

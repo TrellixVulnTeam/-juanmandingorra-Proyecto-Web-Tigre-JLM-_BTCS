@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, whitesmoke, rgb(153, 134, 134), whitesmoke,rgb(153, 134, 134))
+}
+
+header{
+    background-image:url(https://www.estadiosdeargentina.com.ar/wp-content/uploads/2014/03/estadio-tigre-victoria1-640x243.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    padding: 10px;
+
+    h1{
+        padding: 5px;
+        margin: 5px;
+        animation-duration: 3s;
+        animation-name: pulse;
+        animation-iteration-count: infinite;
+    }
+}
+
+
+nav{
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+footer{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+

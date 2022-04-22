@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Atletico Tigre - Home</title>
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="css/estilos.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
 </head>
@@ -15,15 +19,14 @@
         <div class="container-fluid centrar">
             <div class="row">
                 <div class="col-md-12">
+                    <h1>Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
                     <img src="images/Escudo.jpg" width="140">
-                    <h1 class="encabezado1">Club Atletico Tigre</h1> <!-- El club mas grande de Zona Norte --> 
-                    <p style="color: white;"><u><strong>Provincia de Bs. As.</u></p></strong>
                 </div>
             </div>
         </div>
     </header>
     <main class="container-fluid">
-        <div class="row barra_menu"> <!--Barra de navegacion-->
+        <nav class="row"> <!--Barra de navegacion-->
             <div class="col-md-2">
                 <a href="index.html">Home</a> <!-- A la pagina inicial -->
             </div>
@@ -39,10 +42,10 @@
             <div class="col-md-2">
                 <a href="pages/asociarse.html">Contacto-Asociate</a> <!-- A pagina Asociarte -->
             </div>
-        </div>
-        <div class="row">
+        </nav>
+        <section class="row">
             <div class="col-md-6">
-                <p class="h1"><u>Institucion</u></p>
+                <h2><u>Institucion</u></h2>
                 <p>
                     El Club Atlético Tigre fue fundado el 3 de Agosto de 1902, en lo que hoy es la ciudad de Tigre, enmarcado en el pintoresco color del Delta, sus ríos costeados por enormes sauces, y su gente. A partir de 1936 su vida deportiva se traslada unos pocos kilómetros a su actual estadio de Victoria, en el partido de San Fernando, a 30 km. al norte de la Capital Federal.
                     A lo largo de su historia es protagonista permanente del Fútbol Argentino, consagrándose por primera vez Campeón de la Copa Superliga de Primera División en 2019, además fue Campeón del Clausura 97 de Futsal de AFA y pionero del fútbol femenino promoviendo la actividad a mediados de 1960. Ubicado en una zona privilegiada, su mítico estadio le da una identidad única, y junto a su historia y tradición, producen extremo arraigo popular y un amplio poder de convocatoria, transformándolo en el club de referencia para toda la Zona Norte del Gran Buenos Aires.
@@ -52,16 +55,16 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="images/Institucion.jpg" class="img-fluid images">
+                <img src="images/Institucion.jpg" class="img-fluid index_images">
             </div>
-        </div>
+        </section>
         <br>
-        <div class="row">
+        <section class="row">
             <div class="col-md-6">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xMg0a6KIQvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--iframe a video del club-->
             </div>
             <div class="col-md-6">
-                <p class="h1"><u>Datos del Club</u></p>
+                <h2><u>Datos del Club</u></h2>
                 <table class="table-light">
                     <tr>
                         <th>
@@ -173,7 +176,7 @@
                     </tr>
                 </table>
             </div>
-        </div>
+        </section>
     </main>
     <br>
     <footer>
