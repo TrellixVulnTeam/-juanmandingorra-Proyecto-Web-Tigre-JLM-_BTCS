@@ -34,6 +34,20 @@ footer {
   justify-content: center;
   padding: 4px; }
 
+input {
+  width: 300px;
+  height: 25px;
+  font-size: 12px;
+  background-color: lightgreen;
+  transition: all 2s; }
+
+input:focus {
+  width: 400px;
+  height: 32px;
+  font-size: 18px;
+  border: 2px solid red;
+  background-color: white; }
+
 header h1 {
   font-family: 'Pacifico', cursive;
   font-size: 90px;
@@ -95,39 +109,36 @@ footer {
   background-color: #1c1c9c;
   color: #e00d0d; }
 
-.index_images {
+.images, .images--index, .images--history, .images--players {
   padding: 5px;
   border-radius: 10px;
-  border-style: solid;
+  border-style: solid; }
+
+.images--index {
+  transition: all; }
+
+.images--index:hover {
+  border-color: red; }
+
+.images--history {
+  border-style: none;
   transition: all 2s; }
 
-.history_images {
-  padding: 5px;
-  border-radius: 10px;
+.images--history:hover {
   border-style: solid;
-  transition: all 2s; }
-
-.history_images:hover {
+  border-color: green;
   transform: rotate(360deg); }
 
-.images_players {
-  width: 50px; }
+.images--players {
+  padding: 0%;
+  width: 50px;
+  transition: all; }
 
-input {
-  width: 300px;
-  height: 25px;
-  font-size: 12px;
-  background-color: yellow;
-  transition: all 2s; }
+.images--players:hover {
+  border-color: blue;
+  width: 100px; }
 
-input:focus {
-  width: 400px;
-  height: 32px;
-  font-size: 18px;
-  border: 2px solid red;
-  background-color: white; }
-
-.centrar {
+.centrar, .encabezado_contacto {
   text-align: center; }
 
 .encabezado3 {
@@ -160,3 +171,44 @@ iframe {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.titulo {
+  font-size: 90px; }
+
+.texto {
+  font-size: 16px; }
+
+.titulo2 {
+  font-size: 40px; }
+
+.blanco {
+  color: white; }
+
+.negro {
+  color: black; }
+
+.rojo {
+  color: red; }
+
+.azul {
+  color: blue; }
+
+.fondoblanco {
+  background-color: white; }
+
+.fondonegro {
+  background-color: black; }
+
+.fondorojo {
+  background-color: red; }
+
+.fondoazul {
+  background-color: blue; }
+
+.encabezado_contacto {
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: red;
+  font-size: 40px;
+  color: red;
+  background-color: black; }

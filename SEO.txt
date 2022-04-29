@@ -1,0 +1,24 @@
+SEO:
+
+Index.html
+Description:"Club Atletico Tigre - Home - El Club Mas Grande de Zona Norte"
+Keywords:"tigre, club tigre, futbol, institucion tigre, datos club tigre"
+
+planteldeprimera.html:
+Description:"Club Atletico Tigre - Plantel de Primera - Jugadores de Equipo Titular de Tigre - Datos Jugadores"
+Keywords:"tigre, club tigre, futbol, plantel, jugador, valor mercado"
+
+historia.html:
+Description:"Club Atletico Tigre - Historia del Club - Inicios "
+Keywords:"tigre, club tigre, futbol, historia tigre, primeros pasos, primer campeon, primer partido"
+
+fixture.html:
+Description:"Club Atletico Tigre - Fixture del Torneo"
+Keywords:"tigre, club tigre, futbol, fixture, liga profesional, copa argentina, resultado"
+
+asociarse.html:
+Description:"Club Atletico Tigre - Asociarse - Contacto"
+Kerwords:"tigre, club tigre, futbol, asociarse club, socios, contacto, direccion"
+
+
+*Se aplico map,extend y mixin en la parte de "imagenes" y "asociarse".

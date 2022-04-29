@@ -1,21 +1,39 @@
-.index_images{
+.images{
     padding: 5px;
     border-radius: 10px;
     border-style: solid;
+}
+
+.images--index{
+    @extend .images;
+    transition: all;
+}
+
+.images--index:hover{
+    border-color: red
+}
+
+
+.images--history{
+    @extend .images;
+    border-style: none;
     transition: all 2s;
 }
 
-.history_images{
-    padding: 5px;
-    border-radius: 10px;
+.images--history:hover{
     border-style: solid;
-    transition: all 2s;
-}
-
-.history_images:hover{
+    border-color: green;
     transform: rotate(360deg)
 }
 
-.images_players{
+.images--players{
+    @extend .images;
+    padding: 0%;
     width: 50px;
+    transition: all;
+}
+
+.images--players:hover{
+    border-color: blue;
+    width: 100px;
 }
